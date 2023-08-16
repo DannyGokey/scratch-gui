@@ -191,9 +191,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle (title, isDefault) {
         if (isDefault || !title) {
-            document.title = `TurboWarp - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `哆喏编程世界 - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - TurboWarp`;
+            document.title = `${title} - 哆喏编程世界`;
         }
     }
     render () {
@@ -226,7 +226,7 @@ class Interface extends React.Component {
                             canChangeLanguage
                             canManageFiles
                             enableSeeInside
-                            onClickAddonSettings={handleClickAddonSettings}
+                            //onClickAddonSettings={handleClickAddonSettings}
                             onClickTheme={onClickTheme}
                         />
                     </div>
@@ -240,9 +240,15 @@ class Interface extends React.Component {
                 >
                     {isHomepage && announcement ? <DOMElementRenderer domElement={announcement} /> : null}
                     <GUI
-                        onClickAddonSettings={handleClickAddonSettings}
+                        //onClickAddonSettings={handleClickAddonSettings}
                         onClickTheme={onClickTheme}
+                        onClickPackager = {null}
                         onUpdateProjectTitle={this.handleUpdateProjectTitle}
+                        canChangeLanguage ={false}
+                        canShare ={false}
+                        enableCommunity={false}
+                        enableSeeInside = {false}
+
                         backpackVisible
                         backpackHost="_local_"
                         {...props}

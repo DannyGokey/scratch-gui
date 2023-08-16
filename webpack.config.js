@@ -157,28 +157,28 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'TurboWarp - Run Scratch projects faster',
+                title: 'DonoWorld - 科普遇见编程活动公益平台',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'],
                 template: 'src/playground/index.ejs',
                 filename: 'index.html',
-                title: 'TurboWarp - Run Scratch projects faster',
+                title: 'DonoWorld - 科普遇见编程活动公益平台',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'],
                 template: 'src/playground/index.ejs',
                 filename: 'fullscreen.html',
-                title: 'TurboWarp - Run Scratch projects faster',
+                title: 'DonoWorld - 科普遇见编程活动公益平台',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - TurboWarp',
+                title: 'DonoWorld - 科普遇见编程活动公益平台',
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -186,14 +186,14 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - TurboWarp',
+                title: 'DonoWorld - 科普遇见编程活动公益平台',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['credits'],
                 template: 'src/playground/simple.ejs',
                 filename: 'credits.html',
-                title: 'TurboWarp Credits',
+                title: 'DonoWorld - 科普遇见编程活动公益平台',
                 noSplash: true,
                 ...htmlWebpackPluginCommon
             }),

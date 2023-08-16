@@ -629,21 +629,20 @@ class MenuBar extends React.Component {
                                             </React.Fragment>
                                         )}</SB3Downloader>
                                     </MenuSection>
-                                    {this.props.onClickPackager && (
+                                    {/* {this.props.onClickPackager && (
                                         <MenuSection>
                                             <MenuItem
                                                 onClick={this.handleClickPackager}
                                             >
                                                 <FormattedMessage
                                                     defaultMessage="Package project"
-                                                    // eslint-disable-next-line max-len
                                                     description="Menu bar item to open the current project in the packager"
                                                     id="tw.menuBar.package"
                                                 />
                                             </MenuItem>
                                         </MenuSection>
-                                    )}
-                                    <MenuSection>
+                                    )} */}
+                                    {/* <MenuSection>
                                         <TWRestorePointLoader>{(className, loadRestorePoint) => (
                                             <MenuItem
                                                 className={className}
@@ -656,11 +655,11 @@ class MenuBar extends React.Component {
                                                 />
                                             </MenuItem>
                                         )}</TWRestorePointLoader>
-                                    </MenuSection>
+                                    </MenuSection> */}
                                 </MenuBarMenu>
                             </div>
                         )}
-                        <div
+                        {/* <div
                             className={classNames(styles.menuBarItem, styles.hoverable, {
                                 [styles.active]: this.props.editMenuOpen
                             })}
@@ -772,7 +771,7 @@ class MenuBar extends React.Component {
                                     </MenuItem>
                                 </MenuSection>
                             </MenuBarMenu>
-                        </div>
+                        </div> */}
                         {this.props.onClickAddonSettings && (
                             <div
                                 className={classNames(styles.menuBarItem, styles.hoverable)}
@@ -788,7 +787,7 @@ class MenuBar extends React.Component {
                                 </div>
                             </div>
                         )}
-                        <div
+                        {/* <div
                             className={classNames(styles.menuBarItem, styles.hoverable)}
                             onMouseUp={this.props.onClickSettings}
                         >
@@ -799,7 +798,7 @@ class MenuBar extends React.Component {
                                     id="tw.menuBar.advanced"
                                 />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <Divider className={classNames(styles.divider)} />
                     {this.props.canEditTitle ? (
@@ -823,6 +822,7 @@ class MenuBar extends React.Component {
                             username={this.props.authorUsername}
                         />
                     ) : null)}
+                    {/****/}
                     <div className={classNames(styles.menuBarItem)}>
                         {this.props.canShare ? (
                             (this.props.isShowingProject || this.props.isUpdating) && (
@@ -881,15 +881,15 @@ class MenuBar extends React.Component {
                         ) : []))}
                     </div>
                     {/* tw: add a feedback button */}
-                    <div className={styles.menuBarItem}>
+                    {/* <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
                             href="https://scratch.mit.edu/users/GarboMuffin/#comments"
                             rel="noopener noreferrer"
                             target="_blank"
-                        >
+                        > */}
                             {/* todo: icon */}
-                            <Button className={styles.feedbackButton}>
+                            {/* <Button className={styles.feedbackButton}>
                                 <FormattedMessage
                                     defaultMessage="TurboWarp Feedback"
                                     description="Button to give feedback in the menu bar"
@@ -897,7 +897,7 @@ class MenuBar extends React.Component {
                                 />
                             </Button>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className={styles.accountInfoGroup}>

@@ -63,6 +63,7 @@ const AccountNavComponent = ({
             // opposite all the others
             place={isRtl ? 'right' : 'left'}
             onRequestClose={onClose}
+
         >
             <MenuItemContainer href={profileUrl}>
                 <FormattedMessage
