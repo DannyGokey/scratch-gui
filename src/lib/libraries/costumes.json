@@ -1,100 +1,184 @@
 [
     {
-        "name": "dono-1",
+        "name": "space-1",
         "tags": [
             "people",
             "person",
             "drawing"
         ],
-        "assetId": "ed04aed7c9916bd02d0a1ea572dbb9b1",
-        "bitmapResolution": 2,
+        "assetId": "d45a01342a5eb56564cab8041a9c2caf",
+        "bitmapResolution": 4,
         "dataFormat": "svg",
-        "md5ext": "ed04aed7c9916bd02d0a1ea572dbb9b1.svg",
-        "rotationCenterX": 200,
-        "rotationCenterY": 200
+        "md5ext": "d45a01342a5eb56564cab8041a9c2caf.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
     },
     {
-        "name": "dono-2",
+        "name": "space-2",
         "tags": [
             "people",
             "person",
             "drawing"
         ],
-        "assetId": "84718b705f1c693fd5b5afc027e605f7",
-        "bitmapResolution": 2,
+        "assetId": "a3812f6e19d69c9a05b9df4235f70f74",
+        "bitmapResolution": 4,
         "dataFormat": "svg",
-        "md5ext": "84718b705f1c693fd5b5afc027e605f7.svg",
-        "rotationCenterX": 200,
-        "rotationCenterY": 200
+        "md5ext": "a3812f6e19d69c9a05b9df4235f70f74.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
     },
     {
-        "name": "dono-3",
+        "name": "space-3",
         "tags": [
             "people",
             "person",
             "drawing"
         ],
-        "assetId": "9d0e0cce3fa40e1dc24ba09736d88c87",
-        "bitmapResolution": 2,
+        "assetId": "ad7c91c94daa9f1f165bf9cd45e3c616",
+        "bitmapResolution": 4,
         "dataFormat": "svg",
-        "md5ext": "9d0e0cce3fa40e1dc24ba09736d88c87.svg",
-        "rotationCenterX": 200,
-        "rotationCenterY": 200
+        "md5ext": "ad7c91c94daa9f1f165bf9cd45e3c616.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
     },
     {
-        "name": "dono-4",
+        "name": "space-4",
         "tags": [
             "people",
             "person",
             "drawing"
         ],
-        "assetId": "ab50d92b1ac3c36b5a0e0eaa6401096f",
-        "bitmapResolution": 2,
+        "assetId": "2cdb8f504f283890a931de1b4bea291c",
+        "bitmapResolution": 4,
         "dataFormat": "svg",
-        "md5ext": "ab50d92b1ac3c36b5a0e0eaa6401096f.svg",
-        "rotationCenterX": 200,
-        "rotationCenterY": 200
+        "md5ext": "2cdb8f504f283890a931de1b4bea291c.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
     },
     {
-        "name": "dono-5",
+        "name": "space-5",
         "tags": [
             "people",
             "person",
             "drawing"
         ],
-        "assetId": "e3164f4d223cb214d9cec5f43071e226",
-        "bitmapResolution": 2,
+        "assetId": "b27983cf27184815fb605600c231e1dc",
+        "bitmapResolution": 4,
         "dataFormat": "svg",
-        "md5ext": "e3164f4d223cb214d9cec5f43071e226.svg",
-        "rotationCenterX": 200,
-        "rotationCenterY": 200
+        "md5ext": "b27983cf27184815fb605600c231e1dc.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
     },
     {
-        "name": "dono-6",
+        "name": "space-6",
         "tags": [
             "people",
             "person",
             "drawing"
         ],
-        "assetId": "46fc919a8a9253a8fd2c8a26ae8ad0f5",
-        "bitmapResolution": 2,
+        "assetId": "787509f6389d589fdfb367f14a2fa3f8",
+        "bitmapResolution": 4,
         "dataFormat": "svg",
-        "md5ext": "46fc919a8a9253a8fd2c8a26ae8ad0f5.svg",
-        "rotationCenterX": 200,
-        "rotationCenterY": 200
+        "md5ext": "787509f6389d589fdfb367f14a2fa3f8.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
     },
     {
-        "name": "dono-7",
+        "name": "dig-1",
         "tags": [
             "people",
             "person",
             "drawing"
         ],
-        "assetId": "db4dc5a166762e06d2075c186b5b75aa",
-        "bitmapResolution": 2,
+        "assetId": "89cdaf46a082282516ecb7f6314a0f5e",
+        "bitmapResolution": 4,
         "dataFormat": "svg",
-        "md5ext": "db4dc5a166762e06d2075c186b5b75aa.svg",
-        "rotationCenterX": 200,
-        "rotationCenterY": 200
+        "md5ext": "89cdaf46a082282516ecb7f6314a0f5e.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
+    },
+    {
+        "name": "dig-2",
+        "tags": [
+            "people",
+            "person",
+            "drawing"
+        ],
+        "assetId": "25d7bcf68704d1839043e58682aced9f",
+        "bitmapResolution": 4,
+        "dataFormat": "svg",
+        "md5ext": "25d7bcf68704d1839043e58682aced9f.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
+    },
+    {
+        "name": "dig-3",
+        "tags": [
+            "people",
+            "person",
+            "drawing"
+        ],
+        "assetId": "7269a7829a86ba16c44a4a481e79e3cd",
+        "bitmapResolution": 4,
+        "dataFormat": "svg",
+        "md5ext": "7269a7829a86ba16c44a4a481e79e3cd.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
+    },
+    {
+        "name": "dig-4",
+        "tags": [
+            "people",
+            "person",
+            "drawing"
+        ],
+        "assetId": "6713e5a88e657709a5962d523ece355a",
+        "bitmapResolution": 4,
+        "dataFormat": "svg",
+        "md5ext": "6713e5a88e657709a5962d523ece355a.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
+    },
+    {
+        "name": "dig-5",
+        "tags": [
+            "people",
+            "person",
+            "drawing"
+        ],
+        "assetId": "681e0d1e84215fe7066c1dbfbdf9b89f",
+        "bitmapResolution": 4,
+        "dataFormat": "svg",
+        "md5ext": "681e0d1e84215fe7066c1dbfbdf9b89f.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
+    },
+    {
+        "name": "dig-6",
+        "tags": [
+            "people",
+            "person",
+            "drawing"
+        ],
+        "assetId": "e7ed56c5e94c94aea3c062db36732930",
+        "bitmapResolution": 4,
+        "dataFormat": "svg",
+        "md5ext": "e7ed56c5e94c94aea3c062db36732930.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
+    },
+    {
+        "name": "dig-7",
+        "tags": [
+            "people",
+            "person",
+            "drawing"
+        ],
+        "assetId": "a5c731f328ac28dd7cb9d15a39362935",
+        "bitmapResolution": 4,
+        "dataFormat": "svg",
+        "md5ext": "a5c731f328ac28dd7cb9d15a39362935.svg",
+        "rotationCenterX": 100,
+        "rotationCenterY": 100
     }
 ]

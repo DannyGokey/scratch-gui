@@ -208,7 +208,9 @@ const ProjectFetcherHOC = function (WrappedComponent) {
         vm: PropTypes.instanceOf(VM)
     };
     ProjectFetcherComponent.defaultProps = {
+        //部署时要修改
         assetHost: 'https://codeworld.doornoor.com',
+        //assetHost: 'http://localhost:8601',
         projectHost: 'https://projects.scratch.mit.edu'
     };
 
